@@ -3,10 +3,10 @@
 
 
 window.onload = function () {
-  if
+
   document.querySelector('.header').style.display = "none"
   document.getElementById('button').onclick = function () {
-      document.getElementById('modal').style.display = "none"
-      document.querySelector('.header').style.display = "block"
-    };
+    document.getElementById('modal').style.display = "none"
+    document.querySelector('.header').style.display = "block"
+  };
 };
