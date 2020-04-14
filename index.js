@@ -22,7 +22,7 @@ for (let i = 0; i < navs.length; i++) {
 
   nav.push(`
    
-      <a href=" #/${navs[i].buttons}.html" class ="link"> ${navs[i].links} </a> 
+      <a href=" /${navs[i].buttons}.html" class ="link"> ${navs[i].links} </a> 
      
      
       `)
