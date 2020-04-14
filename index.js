@@ -10,7 +10,7 @@ let navs = [
 
 
 
-let happy
+
 
 let nav = []
 let $header = document.querySelector('.header')
