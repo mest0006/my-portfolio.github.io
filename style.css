@@ -1,29 +1,40 @@
  html {
-   width: 100vh;
-   height: 100vh;
- }
-
- body {
    width: 100vw;
    height: 100vh;
-   background-color: lavender;
+
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .body {
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
+   animation: gradient 15s ease infinite;
    margin: 0;
    transition: ease-in;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+
+
  }
 
 
  .topnav {
+   text-align: center;
    overflow: hidden;
-   background-color: lavenderblush
+   background: black;
+   padding: 1vw;
+   bottom: 0;
+
  }
 
  .topnav a {
-   font-family: 'Raleway', sans-serif;
-   margin-right: 5%;
-   float: right;
-   color: black;
    text-align: center;
-   padding: 14px 30px;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+   text-align: center;
+   padding: 4vw;
    text-decoration: none;
    font-size: 20px;
  }
@@ -38,10 +49,13 @@
    color: white;
  }
 
- img {
-   width: 10vw;
-   margin-top: -20px;
-   top: 0;
+ .logo {
+   width: 5vw;
+   margin-top: -4rem;
+   padding: 1rem;
+   text-align: center;
+   bottom: 0;
+
 
  }
 
@@ -52,7 +66,7 @@
    font-family: Arial, Helvetica, sans-serif;
    top: 0;
    left: 0;
-   background: rgba(0, 0, 0, 0.8);
+   background: rgba(0, 0, 0, 0.918);
    z-index: 99999;
    height: 100%;
    width: 100%;
@@ -66,6 +80,7 @@
    display: inline;
    text-align: center;
    border-radius: 5px;
+   font-weight: 600;
  }
 
  button:hover {
@@ -84,4 +99,139 @@
 
    z-index: 99999;
    padding: 50px;
+ }
+
+
+ .one,
+ .two,
+ .three {
+   width: 100px;
+ }
+
+ i,
+ .s {
+   color: white;
+
+   font-size: 2vw;
+   padding: 3vw;
+   text-align: center;
+
+
+
+ }
+
+
+ .myskills {
+   margin: auto;
+   font-size: 2vw;
+   padding: 1vw;
+   text-align: center;
+   color: white;
+
+ }
+
+ .skilllists {
+   font-size: 3vw;
+
+ }
+
+ .skill {
+   margin-bottom: auto;
+   padding: 1vw;
+   display: inline;
+
+ }
+
+ .skills {
+   margin-top: 2rem;
+   padding: 1vw;
+   font-family: 'Raleway', sans-serif;
+   font-size: 3vw;
+   text-align: center;
+   margin-bottom: 0;
+ }
+
+ .s {
+   background: rgba(0, 0, 0, 0.616);
+
+ }
+
+ i {
+   font-size: 1vwrem;
+ }
+
+ .skillscontainer {
+
+
+   font-family: 'Raleway', sans-serif;
+   list-style-type: none;
+   display: grid;
+   padding: 1rem;
+   grid-gap: 2rem;
+   grid-column-gap: 1px;
+   grid-template-columns: repeat(16, 1fr);
+   grid-template-columns: repeat(4, 1fr);
+   align-items: center;
+   align-content: center;
+   justify-items: center;
+
+ }
+
+ .skillscontainer {
+   justify-items: center;
+   align-items: center;
+ }
+
+ .myskills {
+   text-align: center;
+   justify-content: center;
+ }
+
+
+ @keyframes gradient {
+   0% {
+     background-position: 0% 50%;
+   }
+
+   50% {
+     background-position: 100% 50%;
+   }
+
+   100% {
+     background-position: 0% 50%;
+   }
+ }
+
+ .projects {
+   text-align: center;
+ }
+
+ .borbala {
+   border-radius: 2%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+   padding: 2px;
+
+ }
+
+ .b {
+
+   color: white;
+   text-align: center;
+
+
+ }
+
+ .bio {
+   margin: 2%;
+
+ }
+
+ .bio>h1 {
+   font-size: 1.5rem;
+ }
+
+ footer {
+   background-color: black;
  }
