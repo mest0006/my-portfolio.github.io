@@ -238,7 +238,10 @@
 
  }
 
+ .memory {
+   width: 100%;
 
+ }
 
  .overlay {
    opacity: 60%;
@@ -271,10 +274,7 @@
    text-align: center;
  }
 
- .memory {
-   width: 100%;
 
- }
 
  .borbala {
    border-radius: 2%;
