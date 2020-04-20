@@ -8,7 +8,7 @@
  .body {
    width: 100vw;
    height: 100vh;
-   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background: linear-gradient(-45deg, #ee76528f, #e73c7ea2, #23a5d5c0, #23d5abb7);
    background-size: 400% 400%;
    animation: gradient 15s ease infinite;
    margin: 0;
@@ -23,7 +23,7 @@
  .topnav {
    text-align: center;
    overflow: hidden;
-   background: black;
+   background: rgba(230, 230, 250, 0.438);
    padding: 1vw;
    bottom: 0;
 
@@ -66,10 +66,18 @@
    font-family: Arial, Helvetica, sans-serif;
    top: 0;
    left: 0;
-   background: rgba(0, 0, 0, 0.918);
+   background: rgba(0, 0, 0, 0.966);
    z-index: 99999;
    height: 100%;
    width: 100%;
+ }
+
+ .modalconent {
+   background: linear-gradient(-45deg, #ee76528f, #e73c7ea2, #23a5d5c0, #23d5abb7);
+   background-size: 900% 900%;
+   animation: gradient 15s ease infinite;
+   margin: 0;
+   transition: ease-in;
  }
 
  button {
@@ -152,7 +160,7 @@
  }
 
  .s {
-   background: rgba(0, 0, 0, 0.617);
+   background: rgba(230, 230, 250, 0.438);
 
  }
 
@@ -203,9 +211,69 @@
  }
 
  .projects {
+
+
+   text-align: center;
+   font-size: 2rem;
+   color: white;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ .javascript {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+   grid-gap: 1%;
    text-align: center;
    font-size: 1rem;
    color: white;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ .jeopardy {
+   width: 100%;
+
+ }
+
+
+
+ .overlay {
+   opacity: 60%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #008CBA;
+ }
+
+
+ .jeopardy1:hover .overlay {
+   opacity: 1;
+ }
+
+ .text {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+ .memory {
+   width: 100%;
+
  }
 
  .borbala {
@@ -235,5 +303,5 @@
  }
 
  footer {
-   background-color: grey;
+   rgba(230, 230, 250, 0.438);
  }
