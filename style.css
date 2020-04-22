@@ -21,7 +21,7 @@
  .topnav {
    text-align: center;
    overflow: hidden;
-   background: goldenrod;
+   background: rgb(119, 32, 218);
    padding: 1vw;
    bottom: 0;
 
@@ -118,8 +118,8 @@
  .s {
    color: white;
 
-   font-size: 2vw;
-   padding: 3vw;
+   font-size: 3rem;
+
    text-align: center;
 
 
@@ -129,7 +129,7 @@
 
  .myskills {
    margin: auto;
-   font-size: 2vw;
+   font-size: 15px;
    padding: 1vw;
    text-align: center;
    color: white;
@@ -137,7 +137,7 @@
  }
 
  .skilllists {
-   font-size: 3vw;
+   font-size: 2rem;
 
  }
 
@@ -152,7 +152,8 @@
    margin-top: 2rem;
    padding: 1vw;
    font-family: 'Raleway', sans-serif;
-   font-size: 3vw;
+   font-weight: 700;
+   font-size: 2rem;
    text-align: center;
    margin-bottom: 0;
  }
@@ -168,7 +169,7 @@
 
  .skillscontainer {
 
-
+   font-size: 16px;
    font-family: 'Raleway', sans-serif;
    list-style-type: none;
    display: grid;
