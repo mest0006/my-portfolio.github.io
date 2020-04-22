@@ -8,9 +8,7 @@
  .body {
    width: 100vw;
    height: 100vh;
-   background: linear-gradient(-45deg, #ee76528f, #e73c7ea2, #23a5d5c0, #23d5abb7);
-   background-size: 400% 400%;
-   animation: gradient 15s ease infinite;
+   background: black;
    margin: 0;
    transition: ease-in;
    font-family: 'Raleway', sans-serif;
@@ -23,7 +21,7 @@
  .topnav {
    text-align: center;
    overflow: hidden;
-   background: rgba(230, 230, 250, 0.438);
+   background: goldenrod;
    padding: 1vw;
    bottom: 0;
 
@@ -160,7 +158,7 @@
  }
 
  .s {
-   background: rgba(230, 230, 250, 0.438);
+   background: rgba(83, 83, 83, 0.452);
 
  }
 
@@ -211,70 +209,86 @@
  }
 
  .projects {
-
-
+   top: 50px;
+   margin: 1rem;
    text-align: center;
    font-size: 2rem;
    color: white;
-   width: 100vw;
-   height: 100vh;
+
  }
+
+
 
  .javascript {
+   justify-content: center;
+   flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   min-height: 50%;
+   margin: 70px auto 0;
+   background-color: #ffffff;
+ }
+
+ .javascript .box {
+   display: inline-block;
    position: relative;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(1, 1fr);
-   grid-gap: 1%;
-   text-align: center;
-   font-size: 1rem;
-   color: white;
-   width: 100vw;
-   height: 100vh;
+   margin: 10px;
+   width: 40%;
+   height: 50%;
+
+   display: inline-block;
  }
 
- .jeopardy {
-   width: 100%;
-
+ .javascript .box .imgbox {
+   position: relative;
+   overflow: hidden;
  }
 
- .memory {
-   width: 100%;
-
+ .javascript .box .imgbox img {
+   max-width: 100%;
+   transition: transform 2s;
  }
 
- .overlay {
-   opacity: 60%;
+ .javascript .box:hover .imgbox img {
+   transform: scale(1.2);
+ }
+
+ .javascript .box .details {
    position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 100%;
-   width: 100%;
-   opacity: 0;
-   transition: .5s ease;
-   background-color: #008CBA;
+   top: 50px;
+   right: 50px;
+   left: 50px;
+   bottom: 50px;
+   background: rgba(0, 0, 0, 0.753);
+   transform: scaleY(0);
+   transition: transform .5s;
+ }
+
+ .javascript .box:hover .details {
+   transform: scaleY(1);
  }
 
 
- .jeopardy1:hover .overlay {
-   opacity: 1;
- }
-
- .text {
-   color: white;
-   font-size: 20px;
+ .javascript .box .details .content {
    position: absolute;
+
    top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
+   transform: translateY(-50%);
    text-align: center;
+   padding: 15px;
+
  }
 
-
+ .javascript .box .details .content h1 {
+   text-align: center;
+   top: 40px;
+   bottom: ;
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   color: #ffff;
+ }
 
  .borbala {
    border-radius: 2%;
@@ -303,5 +317,5 @@
  }
 
  footer {
-   rgba(230, 230, 250, 0.438);
+   background: rgba(230, 230, 250, 0.438);
  }
