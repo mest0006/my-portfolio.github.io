@@ -1,3 +1,12 @@
+$(document).ready(function () {
+  $('.btn btn-default submit').click(function (event) {
+    event.preventDefult()
+    console.log('click')
+  })
+})
+
+
+
 
 let $skills = document.querySelector('.skillscontainer')
 
@@ -16,17 +25,3 @@ window.onload = function () {
 
   };
 };
-function sendMail (str) {
-  var link = "borbala.m.m@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
-  location.href = link;
-}
-function submit_comment () {
-  var name = document.forms["contact_form"]["Name"].value;
-  var Email = document.forms["contact_form"]["Email"].value;
-  var Phone = document.forms["contact_form"]["Phone"].value;
-  var Message = document.forms["contact_form"]["Message"].value;
-
-  if ((name != "") && (Email != "") && (Phone != "") && (Message != "")) {
-    sendMail("HELLO");
-  }
-}
