@@ -15,7 +15,18 @@
 
   }
 
-  header {}
+  .resume {
+    color: white;
+    background-color: transparent;
+
+  }
+
+  .resume:hover {
+    color: black;
+  }
+
+
+
 
   .topnav {
     position: sticky;
