@@ -25,3 +25,6 @@ window.onload = function () {
 
   };
 };
+document.querySelector("colum-1").onclick function() {
+  location.href = "mailto:" + emailTo + '?cc=' + emailCC + '&subject=' + emailSub + '&body=' + emailBody;
+}

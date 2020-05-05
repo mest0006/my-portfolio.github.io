@@ -25,11 +25,13 @@
     color: black;
   }
 
-
+  header {
+    position: sticky;
+  }
 
 
   .topnav {
-    position: sticky;
+
     text-align: center;
     overflow: hidden;
     background: rgb(119, 32, 218);
@@ -140,6 +142,7 @@
 
 
   .myskills {
+
     margin: auto;
     font-size: 12px;
     padding: 1vw;
@@ -148,9 +151,12 @@
 
   }
 
-  .skilllists {
-    font-size: 2rem;
 
+
+  .skilllists {
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
   }
 
   .skill {
