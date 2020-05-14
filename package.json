@@ -1,0 +1,23 @@
+{
+  "name": "my-portfolio.github.io",
+  "version": "1.0.0",
+  "description": "welcome to my portoflio wesite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mest0006/my-portfolio.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mest0006/my-portfolio.github.io/issues"
+  },
+  "homepage": "https://github.com/mest0006/my-portfolio.github.io#readme",
+  "dependencies": {
+    "terser": "^4.6.13"
+  }
+}
