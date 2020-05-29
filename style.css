@@ -5,7 +5,7 @@
   }
 
   .body {
-    background-color: black;
+    background-color: #28184C;
 
     margin: 0;
     transition: ease-in;
@@ -34,7 +34,8 @@
     position: relative;
     text-align: center;
     overflow: hidden;
-    background: rgb(119, 32, 218);
+
+    background: #A78DE1;
     padding: 1.5vw;
     bottom: 0;
 
@@ -176,7 +177,7 @@
     width: 800px;
     padding: 1vw;
     text-align: center;
-    background: rgba(124, 33, 228, 0.548);
+    background: #A78DE1;
     color: white;
 
 
@@ -240,7 +241,7 @@
   }
 
   .s {
-    background: white;
+    background: #DBD9E0;
     color: black;
 
   }
@@ -290,7 +291,7 @@
   }
 
   .projects {
-    background-color: black;
+    background-color: #28184C;
     top: 100px;
 
     text-align: center;
@@ -316,7 +317,7 @@
     width: 100%;
     min-height: 50%;
     margin: 2rem;
-    background-color: #000000;
+    background-color: #28184C;
   }
 
   .javascript .box {
@@ -455,7 +456,8 @@
   footer {
     width: 100vw;
     height: 20vh;
-    background: rgb(119, 32, 218);
+    background: #A78DE1;
+
     padding: 3rem;
     text-align: center;
     margin-bottom: 0rem;
