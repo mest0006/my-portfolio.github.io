@@ -18,6 +18,8 @@ for (let skills of skillslist) {
 }
 
 $skills.innerHTML = empty.join('');
+
+
 (function () {
   if (window.localStorage) {
     if (!localStorage.getItem('firstLoad')) {
