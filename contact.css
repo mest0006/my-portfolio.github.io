@@ -10,12 +10,14 @@ body {
 }
 
 form {
+  position: relative;
   border-radius: 20px;
-  background: rgba(244, 242, 247, 0.911);
-
+  background: #A78DE1;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 2rem;
 }
 
 .ch2 {
@@ -34,7 +36,7 @@ h1 {
 
 i {
   font-size: 3rem;
-  color: black;
+  color: white;
   padding: 2px;
 }
 
@@ -52,20 +54,21 @@ i {
 
 .phone {
   font-family: 'Raleway', sans-serif;
-  color: rgb(87, 86, 86);
-  font-weight: 00;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
 }
 
 .email {
   font-family: 'Raleway', sans-serif;
-  color: rgb(87, 86, 86);
-  font-weight: 00;
+  color: rgb(8, 8, 8);
+  font-weight: 800;
 }
 
 .phonenumber,
 .emailname {
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+  color: black;
 }
 
 .colum {
@@ -73,6 +76,23 @@ i {
   height: 200px;
   padding: 4.5rem;
   margin: 2rem;
+
+}
+
+.colum:nth-child(1) {
+  position: absolute;
+  left: 0;
+
+}
+
+.colum1 a {
+  color: black;
+}
+
+.colum {
+  right: 0;
+  margin-top: 40px;
+  position: absolute;
 
 }
 
@@ -106,7 +126,7 @@ i {
 
   i {
     font-size: 1rem;
-    color: black;
+    color: white;
     padding: 2px;
   }
 

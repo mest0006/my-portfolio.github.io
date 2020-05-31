@@ -88,24 +88,6 @@
 
 
 
-  #modal {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.966);
-    z-index: 99999;
-    height: 100%;
-    width: 100%;
-  }
-
-  .modalconent {
-    background: linear-gradient(-45deg, #ee76528f, #e73c7ea2, #23a5d5c0, #23d5abb7);
-    background-size: 900% 900%;
-    animation: gradient 15s ease infinite;
-    margin: 0;
-    transition: ease-in;
-  }
 
   #button {
     font-family: 'Raleway', sans-serif;
@@ -122,19 +104,6 @@
     background-color: rgba(230, 230, 250, 0.438);
   }
 
-  .modalconent {
-    transition: 1s ease-out;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    z-index: 99999;
-    padding: 50px;
-  }
 
 
   .one,
@@ -211,6 +180,8 @@
   }
 
   .skilllists {
+    position: absolute;
+    width: 400px;
     font-size: 3rem;
     padding: 2rem;
     margin: 2rem;
@@ -231,6 +202,7 @@
   }
 
   .skills {
+    position: relative;
     margin-top: 2rem;
     padding: 1vw;
     font-family: 'Raleway', sans-serif;
@@ -241,11 +213,21 @@
   }
 
   .s {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    position: relative;
     background: #DBD9E0;
     color: black;
 
   }
 
+  .s h1 {
+    position: absolute;
+    left: 20;
+    top: 0;
+    margin-left: 40px;
+  }
 
 
   .skillscontainer {
@@ -265,6 +247,8 @@
 
   }
 
+
+
   .skillscontainer {
     justify-items: center;
     align-items: center;
@@ -275,20 +259,6 @@
     justify-content: center;
   }
 
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-
-    50% {
-      background-position: 100% 50%;
-    }
-
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 
   .projects {
     background-color: #28184C;
@@ -590,7 +560,7 @@
     .javascript .box .details .content {
       position: absolute;
 
-      top: 10%;
+      top: 20%;
       left: 10%;
       right: 10%;
       bottom: 10%;

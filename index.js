@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 let $skills = document.querySelector('.skillscontainer')
 
-let skillslist = ['Javascript', 'React', 'Vue', 'NodeJS', 'JQuery', 'Python', 'Ruby', 'Php', 'Wordpress', 'Drupal', 'Shopify', 'HTML', 'CSS']
+let skillslist = ['Javascript', 'React', 'Vue', 'NodeJS', 'JQuery', 'Python', 'Ruby', 'PhP', 'Laravel', 'Wordpress', 'Drupal', 'Shopify', 'HTML', 'CSS', 'SQL', 'AWS']
 let empty = []
 
 for (let skills of skillslist) {
@@ -19,30 +19,3 @@ for (let skills of skillslist) {
 
 $skills.innerHTML = empty.join('');
 
-
-(function () {
-  if (window.localStorage) {
-    if (!localStorage.getItem('firstLoad')) {
-      localStorage['firstLoad'] = true;
-
-      document.getElementById('button').onclick = function () {
-
-        document.getElementById('modal').style.display = "none"
-
-      };
-
-      window.location.reload();
-    }
-    else
-      localStorage.removeItem('firstLoad');
-  }
-})();
-
-window.onload = function () {
-
-  document.getElementById('button').onclick = function () {
-
-    document.getElementById('modal').style.display = "none"
-
-  };
-};
