@@ -1,13 +1,13 @@
 * {
   margin: 0;
+
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  width: 100vw;
-  height: 100vh;
+.b {
+  background-color: #28184C;
+
 }
+
 
 form {
   position: relative;
