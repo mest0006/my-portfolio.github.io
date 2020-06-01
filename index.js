@@ -11,6 +11,7 @@ $(document).ready(function () {
 let $skills = document.querySelector('.skillscontainer')
 
 let skillslist = ['Javascript', 'React', 'Vue', 'NodeJS', 'JQuery', 'Python', 'Ruby', 'PhP', 'Laravel', 'Wordpress', 'Drupal', 'Shopify', 'HTML', 'CSS', 'SQL', 'AWS']
+let icons = []
 let empty = []
 
 for (let skills of skillslist) {
