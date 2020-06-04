@@ -31,7 +31,7 @@
 
 
   .topnav {
-
+    padding: 2rem;
     text-align: center;
     overflow: hidden;
 
@@ -58,11 +58,11 @@
 
   .topnav i:hover {
     color: black;
-    background-color: #ddd;
+
   }
 
   .topnav a:hover {
-    background-color: #ddd;
+
     color: black;
   }
 
@@ -98,9 +98,7 @@
     font-weight: 600;
   }
 
-  button:hover {
-    background-color: rgba(230, 230, 250, 0.438);
-  }
+
 
 
 
@@ -449,9 +447,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .logo {
-      width: 20vw;
-    }
+
 
     .resume {
       color: white;
@@ -473,12 +469,10 @@
 
 
 
-    .topnav {
-      display: block;
-    }
+
 
     .topnav a {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
     .biotext h1 {
