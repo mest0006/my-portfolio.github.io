@@ -370,26 +370,18 @@
 
   }
 
-  .content button {
-    border-radius: 10px;
-    background: transparent;
 
-  }
 
-  .content button:hover {
-    border-radius: 10px;
-    color: white;
-    background: rgb(119, 32, 218);
-  }
+
 
   .content a {
-    color: white;
-    font-size: 90%;
+
+    font-size: 100%;
   }
 
   .content a:hover {
     text-decoration: none;
-    color: white;
+    font-size: 100%;
 
   }
 
